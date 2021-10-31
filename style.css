@@ -4,6 +4,7 @@ body {
 }
 .top-header {
 	background-color: #f7f7f7;
+	padding: 20px 40px;
 }
 
 h1,
@@ -27,6 +28,10 @@ p {
 	line-height: 1.4;
 }
 
+li {
+	margin-bottom: 10px;
+}
+
 aside {
 	background-color: #f7f7f7;
 	border-top: 5px solid #1098ad;
@@ -41,3 +46,17 @@ aside {
 .related {
 	list-style: none;
 }
+
+a:link {
+	color: #1098ad;
+	text-decoration: none;
+}
+
+a:hover {
+	color: orangered;
+	font-weight: bold;
+}
+
+/* .copyright {
+	color: ;
+} */
