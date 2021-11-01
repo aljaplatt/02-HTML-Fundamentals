@@ -7,6 +7,7 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	color: #444;
+	position: relative;
 }
 
 .container {
@@ -23,6 +24,7 @@ body {
 	margin-bottom: 30px;
 }
 
+/* ---------------HEADINGS ----------------- */
 h1,
 h2,
 h3 {
@@ -38,7 +40,9 @@ h1 {
 h2 {
 	font-size: 2.5rem;
 	margin-bottom: 20px;
+	position: relative;
 }
+
 h3 {
 	margin-bottom: 20px;
 }
@@ -46,6 +50,8 @@ h5 {
 	text-align: center;
 	text-transform: uppercase;
 }
+
+/* ------------------------------------------- */
 
 p {
 	font-size: 1.125rem;
@@ -97,13 +103,22 @@ a:hover {
 /* .copyright {
 	color: ;
 } */
+
+/* ------------IMAGES---------------- */
+.author-img {
+	max-width: 10%;
+	height: auto;
+}
+
 .post-img {
 	max-width: 100%;
 }
 
-.related-img {
-	width: 50px;
+.list-img {
+	max-width: 30%;
+	height: auto;
 }
+/* ---------------------------------- */
 
 nav a:link {
 	display: inline-block;
@@ -112,4 +127,31 @@ nav a:link {
 
 nav a:link:last-child {
 	margin-right: 0;
+}
+
+button {
+	font-size: 1.5rem;
+	padding: 20px;
+	cursor: pointer;
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+}
+
+h1::first-letter {
+	font-style: normal;
+	margin-right: 5px;
+}
+
+h2::after {
+	content: 'TOP';
+	background-color: #ffe70e;
+	font-size: 0.85rem;
+	font-weight: bold;
+	color: #000;
+	display: inline-block;
+	padding: 5px 10px;
+	position: absolute;
+	top: -15px;
+	right: -25px;
 }
