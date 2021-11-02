@@ -17,19 +17,22 @@ body {
 }
 
 nav {
-	float: right;
-	margin-top: 10px;
+	/* float: right; */
+	/* margin-top: 10px; */
 }
 
-.clearfix::after {
+/* .clearfix::after {
 	clear: both;
 	content: '';
 	display: block;
-}
+} */
 .top-header {
 	background-color: #f7f7f7;
 	padding: 40px 20px;
 	margin-bottom: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .art-header {
@@ -37,12 +40,12 @@ nav {
 }
 
 article {
-	float: left;
+	/* float: left; */
 	max-width: 825px;
 }
 
 aside {
-	float: right;
+	/* float: right; */
 	background-color: #f7f7f7;
 	border-top: 5px solid #1098ad;
 	border-bottom: 5px solid #1098ad;
@@ -51,7 +54,7 @@ aside {
 }
 
 footer {
-	clear: both;
+	/* clear: both; */
 }
 
 /* ---------------HEADINGS ----------------- */
@@ -64,7 +67,7 @@ h3 {
 h1 {
 	text-transform: uppercase;
 	font-style: italic;
-	float: left;
+	/* float: left; */
 }
 
 h2 {
@@ -104,9 +107,13 @@ li:last-child {
 }
 
 .author {
-	float: left;
+	/* float: left; */
 	margin-top: 10px;
 	margin-left: 20px;
+}
+
+.author-box {
+	display: flex;
 }
 
 .small_text {
@@ -135,7 +142,7 @@ a:hover {
 
 /* ------------IMAGES---------------- */
 .author-img {
-	float: left;
+	/* float: left; */
 	max-width: 5%;
 	height: auto;
 	margin-bottom: 20px;
