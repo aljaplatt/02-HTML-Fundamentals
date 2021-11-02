@@ -89,7 +89,6 @@ h5 {
 p {
 	font-size: 1.125rem;
 	line-height: 1.4;
-	margin-bottom: 15px;
 }
 
 ul,
@@ -108,12 +107,14 @@ li:last-child {
 
 .author {
 	/* float: left; */
-	margin-top: 10px;
+	/* margin-top: 10px; */
 	margin-left: 20px;
 }
 
 .author-box {
 	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
 }
 
 .small_text {
@@ -126,6 +127,12 @@ li:last-child {
 	margin-left: 0;
 }
 
+.related-post {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
 a:link {
 	color: #1098ad;
 	text-decoration: none;
@@ -136,16 +143,12 @@ a:hover {
 	font-weight: bold;
 }
 
-/* .copyright {
-	color: ;
-} */
-
 /* ------------IMAGES---------------- */
 .author-img {
 	/* float: left; */
 	max-width: 5%;
 	height: auto;
-	margin-bottom: 20px;
+	/* margin-bottom: 20px; */
 }
 
 .post-img {
